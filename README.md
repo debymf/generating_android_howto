@@ -14,7 +14,7 @@
 
 ## Dataset files
 
-The generated AndroidHowTo dataset is available in the ```androidhowto_dataset``` folder. If you want to generate the dataset yourself, follow the steps below.
+The generated AndroidHowTo dataset is available in the ```androidhowto_dataset``` folder. The downloaded files before generation are available in ```prep```. If you want to generate the dataset yourself, follow the steps below.
 
 ## Running the code to generate AndroidHowTo dataset:
 
