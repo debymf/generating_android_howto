@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Generic options:
+#SBATCH --account=bdman04  # Run job under project <project>
+#SBATCH --time=48:0:0         # Run for a max of 48 hour
+#SBATCH --output="download_files.out"
+# Node resources:
+#SBATCH --partition=gpu    # Choose either "gpu" or "infer" node type
+#SBATCH --nodes=1          # Resources from a two nodes
+#SBATCH --gres=gpu:4       # Four GPUs per node (plus 100% of node CPU and RAM per node)
+
+
+source activate layoutipa
+
+python download_and_extract.py
