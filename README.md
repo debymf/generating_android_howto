@@ -14,9 +14,9 @@
 
 ## Dataset files
 
-The generated AndroidHowTo dataset is available in the ```androidhowto_dataset``` folder. The downloaded files needed for generating this dataset in folder ```prep```. If you want to generate the dataset yourself, follow the steps below.
+The generated AndroidHowTo dataset is available in the ```androidhowto_dataset``` folder. If you want to generate the dataset yourself, follow the steps below.
 
-### Running the code to generate AndroidHowTo dataset:
+## Running the code to generate AndroidHowTo dataset:
 
 Download all the files in used_warc.paths
 
@@ -27,7 +27,7 @@ python download_and_extract.py
 This will take a LONG time, come back after two days :hourglass_flowing_sand:
 
 
-For each file in ```used_warc.paths``` a output file will be generated inside prep. You can find two examples there, make sure to delete those files before running the code, or else you might have problems :bug: 
+For each file in ```used_warc.paths``` a output file will be generated inside ```prep```. Make sure the prep folder is empty, or else you might have problems :bug: 
 
 
 After you download and parsed all the files (3,414 in total), you can merge all the files into one, by running:
